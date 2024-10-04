@@ -1,0 +1,6 @@
+conda create -n simhrn python==3.8
+conda activate simhrn
+pip install -r requirements.txt
+conda install ffmpeg -y
+pip install ffmpeg-python
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
